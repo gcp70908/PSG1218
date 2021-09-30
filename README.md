@@ -1,3 +1,24 @@
+Changes:
+
+.config
+
+remove all features
+
+
+https://github.com/gcp70908/PSG1218/blob/master/.github/workflows/build-openwrt-lean.yml
+
+REPO_URL: https://github.com/gcp70908/lede
+
+on:
+  repository_dispatch:
+  workflow_dispatch:
+    inputs:
+      ssh:
+        description: 'SSH connection to Actions'
+        required: false
+        default: 'false'
+
+
 
 # OpenWrt firmware for K2-PSG1218-A
 固件采用GitHub Actions不定时自动云编译斐讯K2-PSG1218-A。  

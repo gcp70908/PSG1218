@@ -2,7 +2,7 @@ Changes:
 
 .config
 
-remove all features
+remove all features, add ssr-plus
 
 
 https://github.com/gcp70908/PSG1218/blob/master/.github/workflows/build-openwrt-lean.yml

@@ -1,7 +1,8 @@
 不稳定，经常断网，然后重启，时不时5G wifi 丢失
 
-iptables -I FORWARD -p tcp -m connlimit -connlimit-above 200 -j REJECT
-iptables -I FORWARD -p udp -m connlimit -connlimit-above 51 -j REJECT
+iptables -I FORWARD -p tcp -m connlimit -connlimit-above 100 -j REJECT
+
+iptables -I FORWARD -p udp -m connlimit -connlimit-above 41 -j REJECT
 
 
 Changes:

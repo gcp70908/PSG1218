@@ -1,3 +1,5 @@
+不稳定，经常断网，然后重启，时不时5G wifi 丢失
+
 Changes:
 
 .config
